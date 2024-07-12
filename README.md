@@ -1,3 +1,5 @@
+## 默认使用经典分支！！方便vercel部署
+
 <p align="center">
 <img src="https://docs.rsshub.app/img/logo.png" alt="RSSHub" width="100">
 </p>
