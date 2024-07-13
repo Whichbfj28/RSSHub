@@ -1,6 +1,12 @@
 {
     "framework": null,
     "github": { "silent": true },
-    "routes": [{ "src": "/.*", "dest": "/api/vercel.js" }],
-    "functions": {"maxDuration": 60 }
+    "routes": [{ "src": "/.*", "dest": "/api/vercel.js" }]
+}
+{
+  "functions": {
+    "pages/api/**/*": {
+      "maxDuration": 60 // All functions can run for a maximum of 5 seconds
+    }
+  }
 }
