@@ -4,11 +4,11 @@
     "framework": null,
     "github": { "silent": true },
     "routes": [{ "src": "/.*", "dest": "/api/vercel.ts" }],
-    "functions": {
-        "api/**/*.js": {
+    "functions": [
+        "*": {
             "maxDuration": 60
         }
-    }
+    ]
 
 
 
