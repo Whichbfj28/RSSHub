@@ -1,6 +1,6 @@
 {
     "framework": null,
     "github": { "silent": true },
-    "maxDuration": 5,
+    "maxDuration": 60,
     "routes": [{ "src": "/.*", "dest": "/api/vercel.js" }]
 }
