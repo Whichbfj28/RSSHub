@@ -6,7 +6,7 @@
     "routes": [{ "src": "/.*", "dest": "/api/vercel.ts" }],
     "functions": {
         "pages/api/**/*": {
-            "maxDuration": 5
+            "maxDuration": 60
         }
     }
 
