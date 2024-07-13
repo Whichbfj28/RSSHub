@@ -5,7 +5,7 @@
     "github": { "silent": true },
     "routes": [{ "src": "/.*", "dest": "/api/vercel.ts" }],
     "functions": {
-        "api/*": {
+        "api/**/*.js": {
             "maxDuration": 60
         }
     }
