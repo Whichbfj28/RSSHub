@@ -3,3 +3,11 @@
     "github": { "silent": true },
     "routes": [{ "src": "/.*", "dest": "/api/vercel.js" }]
 }
+
+{
+  "functions": {
+    "api/*": {
+      "maxDuration": 60
+    }
+  }
+}
